@@ -5,7 +5,7 @@ import yaml
 from yaml.loader import SafeLoader
 from requests.auth import HTTPBasicAuth
 import pandas as pd
-from get_threat_actor_details import *
+from submodule_get_apt_details import *
 
 output_filepath = "C:\\Users\\Admin\\Downloads\\mandiant\\threat_actor.xlsx"
 
